@@ -1,0 +1,20 @@
+{
+  "name": "file-icons",
+  "version": "0.1.0",
+  "description": "embedded CSS style to illustrate dozens of file types with icons",
+  "scripts": {
+    "build": "sass --source-map src/style.scss dist/style.css && sass --source-map src/style.scss dist/style.min.css --style=compressed",
+    "start": "npm run dev",
+    "serve": "live-server",
+    "watch": "sass --watch src/style.scss dist/style.css",
+    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "author": "Damien Cuvillier <damien@gotan.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.80.1"
+  }
+}

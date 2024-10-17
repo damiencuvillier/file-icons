@@ -1,0 +1,6 @@
+dist/*
+DEADJOE
+*~ 
+packages-lock.json
+node_modules
+.#*

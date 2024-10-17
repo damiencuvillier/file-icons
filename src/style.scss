@@ -1,0 +1,214 @@
+.mime-icon{
+    display: inline-block;
+    mask-image: url('assets/filetypes.png');
+    mask-image: url('assets/filetypes.webp');
+    mask-size: auto 100%;
+    mask-repeat: no-repeat;
+    width: 512px;
+    height: 512px;
+    background-color: #000;
+    overflow: hidden;
+    -webkit-mask-position-y: center;
+
+    -webkit-mask-position-x: calc(-592px * var(--x-position, 0) - 40px);
+
+    &.mime-icon-512{
+        width: 512px;
+        height: 512px;
+        -webkit-mask-position-x: calc(-592px * var(--x-position, 0) - 40px);
+    }
+    &.mime-icon-256{
+        width: 256px;
+        height: 256px;
+        -webkit-mask-position-x: calc(-296px * var(--x-position, 0) - 20px);
+    }
+    &.mime-icon-128{
+        mask-image: url('assets/filetypes-128.png');
+        mask-image: url('assets/filetypes-128.webp');
+        width: 128px;
+        height: 128px;
+        -webkit-mask-position-x: calc(-149px * var(--x-position, 0) - 10px);
+    }
+    &.mime-icon-64{
+        width: 64px;
+        height: 64px;
+        -webkit-mask-position-x: calc(-74px * var(--x-position, 0) - 5px);
+    }
+    &.mime-icon-32{
+        width: 32px;
+        height: 32px;
+        -webkit-mask-position-x: calc(-37px * var(--x-position, 0) - 2px);
+    }
+    
+
+    
+    &.doc{
+        --x-position: 0;
+    }
+    &.docx{
+        --x-position: 1;
+    }
+    &.html{
+        --x-position: 2;
+    }
+    &.xml{
+        --x-position: 3;
+    }
+    &.txt{
+        --x-position: 4;
+    }
+    &.pdf{
+        --x-position: 5;
+    }
+    &.rtf{
+        --x-position: 6;
+    }
+    &.odt{
+        --x-position: 7;
+    }
+    &.svg{
+        --x-position: 8;
+    }
+    &.epub  {
+        --x-position: 9;
+    }
+    &.info{
+        --x-position: 10;
+    }
+    &.xlsx{
+        --x-position: 11;
+    }
+    &.csv{
+        --x-position: 12;
+    }
+    &.otf{
+        --x-position: 13;
+    }
+    &.bat{
+        --x-position: 14;
+    }
+    &.eml{
+        --x-position: 15;
+    }
+    &.mdb{
+        --x-position: 16;
+    }
+    &.obj{
+        --x-position: 17;
+    }
+    &.xls{
+        --x-position: 18;
+    }
+    &.mp4{
+        --x-position: 19;
+    }
+    &.mp3{
+        --x-position: 20;
+    }
+    &.ttf  {
+        --x-position: 21;
+    }
+    &.dwg{
+        --x-position: 22;
+    }
+    &.mov{
+        --x-position: 23;
+    }
+    &.psd{
+        --x-position: 24;
+    }
+    &.ai{
+        --x-position: 25;
+    }
+    &.exe  {
+        --x-position: 26;
+    }
+    &.asp {
+        --x-position: 27;
+    }
+    &.php{
+        --x-position: 28;
+    }
+    // Exception due to the digits at first char
+    &._3ds{
+        --x-position: 29;
+    }
+    &.rar{
+        --x-position: 30;
+    }
+    &.pub{
+        --x-position: 31;
+    }
+    &.js{
+        --x-position: 32;
+    }
+    &.sql{
+        --x-position: 33;
+    }
+    &.log{
+        --x-position: 34;
+    }
+    &.iso{
+        --x-position: 35;
+    }
+    &.wav{
+        --x-position: 36;
+    }
+    &.apk{
+        --x-position: 37;
+    }
+    &.eps{
+        --x-position: 38;
+    }
+    &.jar{
+        --x-position: 39;
+    }
+    &.zip{
+        --x-position: 40;
+    }
+    &.jpg{
+        --x-position: 41;
+    }
+
+    &.ppt{
+        --x-position: 42;
+    }
+    &.css{
+        --x-position: 43;
+    }
+    &.jpeg{
+        --x-position: 44;
+    }
+    &.png{
+        --x-position: 45;
+    }
+    &.gif{
+        --x-position: 46;
+    }
+    &.dll{
+        --x-position: 47;
+    }
+    &.ics{
+        --x-position: 48;
+    }
+    &.cpp{
+        --x-position: 49;
+    }
+    &.cs{
+        --x-position: 50;
+    }
+    &.srt{
+        --x-position: 51;
+    }
+    &.dat{
+        --x-position: 52;
+    }
+    &.flv{
+        --x-position: 53;
+    }
+    &._7z{
+        --x-position: 54;
+    }
+    
+}
+
